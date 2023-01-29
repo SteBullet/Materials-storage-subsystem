@@ -1,0 +1,35 @@
+﻿@model Materials_storage_subsystem.Models.ViewModels.ExpenseSheetEditModel
+
+@{
+    ViewData["Title"] = "ExpenseSheetEdit";
+    Layout = "_LayoutCheckman";
+}
+
+<h1>ExpenseSheetEdit</h1>
+
+<h4>ExpenseSheet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ExpenseSheetEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="@Model.ExpenseSheet.Id" />
+            <div class="form-group">
+                <label asp-for="@Model.ExpenseSheet.Date" class="control-label"></label>
+                <input type="hidden" asp-for="@Model.ExpenseSheet.Date" class="form-control" />
+                <label>@Model.ExpenseSheet.Date</label>
+                <span asp-validation-for="@Model.ExpenseSheet.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Warehouse</label>
+                <input type="hidden" asp-for="@Model.ExpenseSheet.WarehouseId" />
+                <label>@Model.ExpenseSheet.WarehouseId</label>
+                <span asp-validation-for="@Model.ExpenseSheet.WarehouseId" class="text-danger"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ExpenseSheetList">Back to List</a>
+</div>

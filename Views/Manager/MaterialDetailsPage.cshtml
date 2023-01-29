@@ -1,0 +1,37 @@
+﻿@model Materials_storage_subsystem.Models.Material
+
+@{
+    ViewData["Title"] = "MaterialDetailsPage";
+    Layout = "_LayoutManager";
+}
+
+<h1>MaterialDetailsPage</h1>
+
+<div>
+    <h4>Material</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Volume)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Volume)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="MaterialEditPage" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="MaterialsCatalogPage">Back to List</a>
+</div>
