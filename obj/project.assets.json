@@ -7149,19 +7149,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Степан\\.nuget\\packages\\": {}
+    "C:\\Users\\noblackir\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C#\\Materials storage subsystem git\\Materials storage subsystem.csproj",
+      "projectUniqueName": "D:\\курсач тп\\Materials storage subsystem.csproj",
       "projectName": "Materials storage subsystem",
-      "projectPath": "F:\\C#\\Materials storage subsystem git\\Materials storage subsystem.csproj",
-      "packagesPath": "C:\\Users\\Степан\\.nuget\\packages\\",
-      "outputPath": "F:\\C#\\Materials storage subsystem git\\obj\\",
+      "projectPath": "D:\\курсач тп\\Materials storage subsystem.csproj",
+      "packagesPath": "C:\\Users\\noblackir\\.nuget\\packages\\",
+      "outputPath": "D:\\курсач тп\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Степан\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\noblackir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7224,7 +7229,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

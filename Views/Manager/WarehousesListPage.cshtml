@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Materials_storage_subsystem.Models.Warehouse>
+
+@{
+    ViewData["Title"] = "WarehousesList";
+    Layout = "_LayoutManager";
+}
+
+<h1>WarehousesList</h1>
+
+<p>
+    <a asp-action="WarehouseCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Number
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Capacity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Capacity)
+            </td>
+            <td>
+                <a asp-action="WarehouseEditPage" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="WarehouseDetailsPage" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="WarehouseDelete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
