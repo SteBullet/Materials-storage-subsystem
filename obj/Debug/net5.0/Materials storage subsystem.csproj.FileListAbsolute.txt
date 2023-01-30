@@ -322,3 +322,167 @@ F:\C#\Materials storage subsystem\obj\Debug\net5.0\Razor\Views\Manager\MaterialE
 F:\C#\Materials storage subsystem\obj\Debug\net5.0\Razor\Views\Manager\MaterialsCatalogPage.cshtml.g.cs
 F:\C#\Materials storage subsystem\obj\Debug\net5.0\Razor\Views\Shared\_LayoutCheckman.cshtml.g.cs
 F:\C#\Materials storage subsystem\obj\Debug\net5.0\Razor\Views\Shared\_LayoutManager.cshtml.g.cs
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\appsettings.Development.json
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\appsettings.json
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.exe
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.deps.json
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.runtimeconfig.json
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.runtimeconfig.dev.json
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ref\Materials storage subsystem.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.pdb
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.Views.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Materials storage subsystem.Views.pdb
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Humanizer.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Composition.Convention.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Composition.Hosting.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Composition.Runtime.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Composition.TypedParts.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\C#\Materials storage subsystem git\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.csproj.AssemblyReference.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.AssemblyInfoInputs.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.AssemblyInfo.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.csproj.CoreCompileInputs.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.MvcApplicationPartsAssemblyInfo.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.RazorAssemblyInfo.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.RazorAssemblyInfo.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\staticwebassets\Materials storage subsystem.StaticWebAssets.Manifest.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\staticwebassets\Materials storage subsystem.StaticWebAssets.xml
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\scopedcss\bundle\Materials storage subsystem.styles.css
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.TagHelpers.input.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.TagHelpers.output.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.RazorCoreGenerate.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetCreate.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetEdit.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetList.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\ExpenseSheetCreate.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\ExpenseSheetPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MaterialCreatePage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MaterialDetailsPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MaterialEditPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MaterialsCatalogPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\WarehouseCreate.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\WarehouseDetailsPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\WarehouseEditPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\WarehousesListPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\_LayoutCheckman.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\_LayoutManager.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.RazorTargetAssemblyInfo.cache
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.RazorTargetAssemblyInfo.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.Views.pdb
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.csproj.CopyComplete
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.dll
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\ref\Materials storage subsystem.dll
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.pdb
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Materials storage subsystem.genruntimeconfig.cache
