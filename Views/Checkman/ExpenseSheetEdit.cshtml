@@ -26,6 +26,50 @@
                 <label>@Model.ExpenseSheet.WarehouseId</label>
                 <span asp-validation-for="@Model.ExpenseSheet.WarehouseId" class="text-danger"></span>
             </div>
+        <div class="form-group">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Материал
+                            </th>
+                            <th>
+                                Количество
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ExpenseSheet.Expenses)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Material.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Quantity)
+                                </td>
+                                <td>
+                                    <a asp-action="DeleteExpense" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </form>
+        <form asp-action="AddExpense">
+            <input type="hidden" value="@Model.ExpenseSheet.Id" asp-for="@Model.MaterialMovement.ExpenseSheetId" />
+            <label>Material</label>
+            <select asp-for="@Model.MaterialMovement.MaterialId" class="form-control">
+                @foreach (var id in Model.Materials)
+                {
+                    <option value="@id.Id">@id.Name</option>
+                }
+            </select>
+            <label>Quantity</label>
+            <input type="number" asp-for="@Model.MaterialMovement.Quantity"/>
+            <input type="submit" value="Add Material Movement" class="btn btn-primary" />
         </form>
     </div>
 </div>

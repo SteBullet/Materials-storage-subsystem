@@ -1,0 +1,37 @@
+﻿@model Materials_storage_subsystem.Models.Warehouse
+
+@{
+    ViewData["Title"] = "WarehouseDetails";
+    Layout = "_LayoutManager";
+}
+
+<h1>WarehouseDetails</h1>
+
+<div>
+    <h4>Warehouse</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Warehouse
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adress)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adress)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Capacity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Capacity)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="WarehouseEditPage" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="WarehousesListPage">Back to List</a>
+</div>

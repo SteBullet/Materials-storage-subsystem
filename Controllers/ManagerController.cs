@@ -77,5 +77,58 @@ namespace Materials_storage_subsystem.Controllers
             _context.SaveChanges();
             return View("MaterialsCatalogPage", _context.Materials.ToList());
         }
+
+        [HttpGet]
+        public IActionResult WarehousesListPage()
+        {
+            var warehouses = _context.Warehouses.ToList();
+            return View(warehouses);
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseDetailsPage(int id)
+        {
+            var warehouse = _context.Warehouses.First(m => m.Id == id);
+            return View(warehouse);
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseEditPage(int id)
+        {
+            var warehouse = _context.Warehouses.First(m => m.Id == id);
+            return View(warehouse);
+        }
+
+        [HttpPost]
+        public IActionResult WarehouseEditPage(Warehouse warehouse)
+        {
+            _context.Warehouses.Update(warehouse);
+            _context.SaveChanges();
+            return View("WarehousesListPage", _context.Warehouses.ToList());
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseCreate()
+        {
+            var model = new Warehouse();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult WarehouseCreate(Warehouse warehouse)
+        {
+            _context.Warehouses.Add(warehouse);
+            _context.SaveChanges();
+            return View("WarehousesListPage", _context.Warehouses.ToList());
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseDelete(int id)
+        {
+            var warehouse = _context.Warehouses.First(m => m.Id == id);
+            _context.Warehouses.Remove(warehouse);
+            _context.SaveChanges();
+            return View("WarehousesListPage", _context.Warehouses.ToList());
+        }
     }
 }
