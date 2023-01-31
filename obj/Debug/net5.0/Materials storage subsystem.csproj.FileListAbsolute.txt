@@ -458,7 +458,6 @@ F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\Expe
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetEdit.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetList.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetPage.cshtml.g.cs
-F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\ExpenseSheetCreate.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\ExpenseSheetPage.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs

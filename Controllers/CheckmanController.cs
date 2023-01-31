@@ -42,8 +42,8 @@ namespace Materials_storage_subsystem.Controllers
         [HttpGet]
         public IActionResult ExpenseSheetList()
         {
-            int id = Int32.Parse(Request.Cookies["userId"]);
-            var expenseSheets = _context.ExpenseSheets.ToList();
+            int userId = Int32.Parse(Request.Cookies["userId"]);
+            var expenseSheets = _context.ExpenseSheets.Where(es => es.WarehouseId == _context.Users.First(u => u.Id == userId).WarehouseId).ToList();
             return View(expenseSheets);
         }
 
@@ -111,8 +111,8 @@ namespace Materials_storage_subsystem.Controllers
         [HttpGet]
         public IActionResult ExpenseSheetCreate()
         {
-            var WarehousesId = _context.Warehouses.Select(w => w.Id).ToList();
-            var Model = new ExpenseSheetModel() { WarehousesId = WarehousesId };
+            int userId = Int32.Parse(Request.Cookies["userId"]);
+            var Model = new ExpenseSheetCreateModel() { WarehousesId = _context.Users.First(u => u.Id == userId).WarehouseId };
             return View(Model);
         }
 

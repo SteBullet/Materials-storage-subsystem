@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Materials_storage_subsystem.Models.ViewModels
 {
-    public class ExpenseSheetModel
+    public class ExpenseSheetCreateModel
     {
-        public List<int> WarehousesId { get; set; }
+        public int WarehousesId { get; set; }
         public ExpenseSheet ExpenseSheet { get; set; }
     }
 }

@@ -53,13 +53,13 @@ namespace Materials_storage_subsystem.Controllers
             return View(expenseSheet);
         }
 
-        [HttpGet]
+        /*[HttpGet]
         public IActionResult ExpenseSheetCreate()
         {
             var WarehousesId = _context.Warehouses.Select(w => w.Id).ToList();
-            var Model = new ExpenseSheetModel() { WarehousesId = WarehousesId };
+            var Model = new ExpenseSheetCreateModel() { WarehousesId = WarehousesId };
             return View(Model);
-        }
+        }*/
 
         [HttpPost]
         public IActionResult ExpenseSheetCreate(ExpenseSheet expenseSheet)

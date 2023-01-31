@@ -1,4 +1,4 @@
-﻿@model ExpenseSheetModel
+﻿@model ExpenseSheetCreateModel
 
 @{
     ViewData["Title"] = "ExpenseSheetCreate";
@@ -19,13 +19,9 @@
                 <span asp-validation-for="ExpenseSheet.Date" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ExpenseSheet.WarehouseId" class="control-label"></label>
-                <select asp-for="ExpenseSheet.WarehouseId" class ="form-control">
-                    @foreach (var id in Model.WarehousesId)
-                     {
-                         <option value="@id">@id</option>
-                     }
-                </select>
+                <label class="control-label">Warehouse</label>
+                <input type="hidden" asp-for="ExpenseSheet.WarehouseId" class="form-control" />
+                <label>@Model.WarehousesId</label>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
