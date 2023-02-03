@@ -18,12 +18,12 @@ using Microsoft.AspNetCore.Authentication;
 
 namespace Materials_storage_subsystem.Controllers
 {
-    public class CheckmanController : Controller
+    public class WarehouseManagerController : Controller
     {
-        private readonly ILogger<CheckmanController> _logger;
+        private readonly ILogger<WarehouseManagerController> _logger;
         private readonly ApplicationContext _context;
 
-        public CheckmanController(ILogger<CheckmanController> logger, ApplicationContext context)
+        public WarehouseManagerController(ILogger<WarehouseManagerController> logger, ApplicationContext context)
         {
             _logger = logger;
             _context = context;
@@ -63,22 +63,13 @@ namespace Materials_storage_subsystem.Controllers
             return View(Model);
         }
 
-        [HttpGet]
-        public IActionResult ExpenseSheetEditError(int id)
-        {
-            ExpenseSheetEditModel Model = new ExpenseSheetEditModel();
-            Model.ExpenseSheet = _context.ExpenseSheets.Include(x => x.Expenses).ThenInclude(x => x.Material).First(x => x.Id == id);
-            Model.Materials = _context.Materials.ToList();
-            return View(Model);
-        }
-
         [HttpPost]
         public IActionResult AddExpense(ExpenseSheetEditModel Model)
         {
             Model.MaterialMovement.ExpenseSheet = _context.ExpenseSheets.First(x => x.Id == Model.MaterialMovement.ExpenseSheetId);
             Model.MaterialMovement.Material = _context.Materials.First(x => x.Id == Model.MaterialMovement.MaterialId);
             MaterialRemaining materialRemaining = _context.MaterialRemainings.FirstOrDefault(x => x.WarehouseId == Model.MaterialMovement.ExpenseSheet.WarehouseId && x.MaterialId == Model.MaterialMovement.MaterialId);
-            if (materialRemaining == null && Model.MaterialMovement.Quantity > 0)
+            if (materialRemaining == null)
             {
                 materialRemaining = new MaterialRemaining
                 {
@@ -91,14 +82,9 @@ namespace Materials_storage_subsystem.Controllers
                 _context.MaterialRemainings.Add(materialRemaining);
             }
             else
-                if (materialRemaining != null && materialRemaining.Quantity + Model.MaterialMovement.Quantity >= 0)
-                {
-                    materialRemaining.Quantity += Model.MaterialMovement.Quantity;
-                    _context.MaterialRemainings.Update(materialRemaining);
-                }
-            else
             {
-                return Redirect($"/Checkman/ExpenseSheetEditError/{Model.MaterialMovement.ExpenseSheetId}");
+                materialRemaining.Quantity += Model.MaterialMovement.Quantity;
+                _context.MaterialRemainings.Update(materialRemaining);
             }
             _context.MaterialMovements.Add(Model.MaterialMovement);
             _context.SaveChanges();
@@ -138,17 +124,17 @@ namespace Materials_storage_subsystem.Controllers
             return Redirect("/Checkman/ExpenseSheetList");
         }
 
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
         [HttpGet]
         public IActionResult MaterialsCatalogPage()
         {
             var materials = _context.Materials.ToList();
             return View(materials);
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
