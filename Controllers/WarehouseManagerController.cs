@@ -29,16 +29,6 @@ namespace Materials_storage_subsystem.Controllers
             _context = context;
         }
 
-        /*public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }*/
-
         [HttpGet]
         public IActionResult ExpenseSheetList()
         {
@@ -63,13 +53,22 @@ namespace Materials_storage_subsystem.Controllers
             return View(Model);
         }
 
+        [HttpGet]
+        public IActionResult ExpenseSheetEditError(int id)
+        {
+            ExpenseSheetEditModel Model = new ExpenseSheetEditModel();
+            Model.ExpenseSheet = _context.ExpenseSheets.Include(x => x.Expenses).ThenInclude(x => x.Material).First(x => x.Id == id);
+            Model.Materials = _context.Materials.ToList();
+            return View(Model);
+        }
+
         [HttpPost]
         public IActionResult AddExpense(ExpenseSheetEditModel Model)
         {
             Model.MaterialMovement.ExpenseSheet = _context.ExpenseSheets.First(x => x.Id == Model.MaterialMovement.ExpenseSheetId);
             Model.MaterialMovement.Material = _context.Materials.First(x => x.Id == Model.MaterialMovement.MaterialId);
             MaterialRemaining materialRemaining = _context.MaterialRemainings.FirstOrDefault(x => x.WarehouseId == Model.MaterialMovement.ExpenseSheet.WarehouseId && x.MaterialId == Model.MaterialMovement.MaterialId);
-            if (materialRemaining == null)
+            if (materialRemaining == null && Model.MaterialMovement.Quantity > 0)
             {
                 materialRemaining = new MaterialRemaining
                 {
@@ -82,13 +81,18 @@ namespace Materials_storage_subsystem.Controllers
                 _context.MaterialRemainings.Add(materialRemaining);
             }
             else
+                if (materialRemaining != null && materialRemaining.Quantity + Model.MaterialMovement.Quantity >= 0)
             {
                 materialRemaining.Quantity += Model.MaterialMovement.Quantity;
                 _context.MaterialRemainings.Update(materialRemaining);
             }
+            else
+            {
+                return Redirect($"/WarehouseManager/ExpenseSheetEditError/{Model.MaterialMovement.ExpenseSheetId}");
+            }
             _context.MaterialMovements.Add(Model.MaterialMovement);
             _context.SaveChanges();
-            return Redirect($"/Checkman/ExpenseSheetEdit/{Model.MaterialMovement.ExpenseSheetId}");
+            return Redirect($"/WarehouseManager/ExpenseSheetEdit/{Model.MaterialMovement.ExpenseSheetId}");
         }
 
         [HttpGet]
@@ -97,7 +101,7 @@ namespace Materials_storage_subsystem.Controllers
             var materialMovement = _context.MaterialMovements.First(m => m.Id == id);
             _context.MaterialMovements.Remove(materialMovement);
             _context.SaveChanges();
-            return Redirect($"/Checkman/ExpenseSheetEdit/{materialMovement.ExpenseSheetId}");
+            return Redirect($"/WarehouseManager/ExpenseSheetEdit/{materialMovement.ExpenseSheetId}");
         }
 
         [HttpPost]
@@ -121,7 +125,7 @@ namespace Materials_storage_subsystem.Controllers
         {
             _context.ExpenseSheets.Add(expenseSheet);
             _context.SaveChanges();
-            return Redirect("/Checkman/ExpenseSheetList");
+            return Redirect("/WarehouseManager/ExpenseSheetList");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -135,6 +139,29 @@ namespace Materials_storage_subsystem.Controllers
         {
             var materials = _context.Materials.ToList();
             return View(materials);
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseDetailsPage(int id)
+        {
+            int userId = Int32.Parse(Request.Cookies["userId"]);
+            var warehouse = _context.Warehouses.First(m => m.Id == _context.Users.First(u => u.Id == userId).WarehouseId);
+            return View(warehouse);
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseEditPage(int id)
+        {
+            var warehouse = _context.Warehouses.First(m => m.Id == id);
+            return View(warehouse);
+        }
+
+        [HttpPost]
+        public IActionResult WarehouseEditPage(Warehouse warehouse)
+        {
+            _context.Warehouses.Update(warehouse);
+            _context.SaveChanges();
+            return View("WarehouseDetailsPage", warehouse);
         }
     }
 }

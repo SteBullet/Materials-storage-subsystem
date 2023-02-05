@@ -29,16 +29,6 @@ namespace Materials_storage_subsystem.Controllers
             _context = context;
         }
 
-        /*public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }*/
-
         [HttpGet]
         public IActionResult ExpenseSheetList()
         {

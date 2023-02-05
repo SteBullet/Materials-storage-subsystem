@@ -47,15 +47,17 @@ namespace Materials_storage_subsystem.Controllers
                 long id = _context.WarehouseManagers.Where(a => a.Password == user.Password && a.Login == user.Login).Select(a => a.Id).FirstOrDefault();
                 Response.Cookies.Append("userId", id.ToString());
 
-                return RedirectToAction("GetUsers", "Account");
+                return RedirectToAction("ExpenseSheetList", "WarehouseManager");
             }
             return View();
         }
+
         public IActionResult Logout()
         {
             Response.Cookies.Delete("userId");
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Account");
         }
+
         [HttpGet]
         public IActionResult CreateUser()
         {
@@ -86,12 +88,14 @@ namespace Materials_storage_subsystem.Controllers
             _context.SaveChanges();
             return Redirect("/Account/GetUsers");
         }
+
         [HttpGet]
         public IActionResult EditUser(int id)
         {
             return View(_context.Users.Where(x => x.Id == id).FirstOrDefault());
 
         }
+
         [HttpGet]
         public IActionResult InfoUser(int id)
         {

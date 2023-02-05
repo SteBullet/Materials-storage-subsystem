@@ -1,0 +1,80 @@
+﻿@model Materials_storage_subsystem.Models.ViewModels.ExpenseSheetEditModel
+
+@{
+    ViewData["Title"] = "ExpenseSheetEdit";
+    Layout = "_LayoutWarehouseManager";
+}
+
+<h1>ExpenseSheetEdit</h1>
+
+<h4>ExpenseSheet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ExpenseSheetEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="@Model.ExpenseSheet.Id" />
+            <div class="form-group">
+                <label asp-for="@Model.ExpenseSheet.Date" class="control-label"></label>
+                <input type="hidden" asp-for="@Model.ExpenseSheet.Date" class="form-control" />
+                <label>@Model.ExpenseSheet.Date</label>
+                <span asp-validation-for="@Model.ExpenseSheet.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Warehouse</label>
+                <input type="hidden" asp-for="@Model.ExpenseSheet.WarehouseId" />
+                <label>@Model.ExpenseSheet.WarehouseId</label>
+                <span asp-validation-for="@Model.ExpenseSheet.WarehouseId" class="text-danger"></span>
+            </div>
+        <div class="form-group">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Материал
+                            </th>
+                            <th>
+                                Количество
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ExpenseSheet.Expenses)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Material.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Quantity)
+                                </td>
+                                <td>
+                                    <a asp-action="DeleteExpense" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </form>
+        <font color="red">Недостаточно материалов на складе</font>
+        <form asp-action="AddExpense">
+            <input type="hidden" value="@Model.ExpenseSheet.Id" asp-for="@Model.MaterialMovement.ExpenseSheetId" />
+            <label>Material</label>
+            <select asp-for="@Model.MaterialMovement.MaterialId" class="form-control">
+                @foreach (var id in Model.Materials)
+                {
+                    <option value="@id.Id">@id.Name</option>
+                }
+            </select>
+            <label>Quantity</label>
+            <input type="number" asp-for="@Model.MaterialMovement.Quantity"/>
+            <input type="submit" value="Add Material Movement" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ExpenseSheetList">Back to List</a>
+</div>

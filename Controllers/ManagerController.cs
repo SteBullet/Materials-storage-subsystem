@@ -20,11 +20,6 @@ namespace Materials_storage_subsystem.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
         [HttpGet]
         public IActionResult MaterialDetailsPage(int id)
         {
