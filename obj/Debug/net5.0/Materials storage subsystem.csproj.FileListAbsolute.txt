@@ -492,3 +492,7 @@ F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\WarehouseMana
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\WarehouseManager\WarehouseEditPage.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\_LayoutWarehouseManager.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\WarehouseManager\ExpenseSheetEditError.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\UsersList.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\CreateUser.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\UserDetails.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\EditUser.cshtml.g.cs

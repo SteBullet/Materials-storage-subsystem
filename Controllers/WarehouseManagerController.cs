@@ -116,7 +116,7 @@ namespace Materials_storage_subsystem.Controllers
         public IActionResult ExpenseSheetCreate()
         {
             int userId = Int32.Parse(Request.Cookies["userId"]);
-            var Model = new ExpenseSheetCreateModel() { WarehousesId = _context.Users.First(u => u.Id == userId).WarehouseId };
+            var Model = new ExpenseSheetCreateModel() { WarehouseId = _context.Users.First(u => u.Id == userId).WarehouseId };
             return View(Model);
         }
 

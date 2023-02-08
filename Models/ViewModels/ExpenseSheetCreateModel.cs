@@ -7,7 +7,7 @@ namespace Materials_storage_subsystem.Models.ViewModels
 {
     public class ExpenseSheetCreateModel
     {
-        public int WarehousesId { get; set; }
+        public int? WarehouseId { get; set; }
         public ExpenseSheet ExpenseSheet { get; set; }
     }
 }

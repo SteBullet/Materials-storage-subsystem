@@ -11,7 +11,8 @@ namespace Materials_storage_subsystem.Models
         public string Name { set; get; }
         public string Login { set; get; }
         public string Password { set; get; }
-        public int WarehouseId { set; get; }
+        public int? WarehouseId { set; get; }
         public Warehouse Warehouse { set; get; }
+        public string Discriminator { get; set; }
     }
 }
