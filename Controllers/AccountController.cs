@@ -40,7 +40,7 @@ namespace Materials_storage_subsystem.Controllers
                 long id = _context.Admins.Where(a => a.Password == user.Password && a.Login == user.Login).Select(a => a.Id).FirstOrDefault();
                 Response.Cookies.Append("userId", id.ToString());
 
-                return RedirectToAction("GetUsers", "Account");
+                return RedirectToAction("UsersList", "Admin");
             }
             else if (_context.WarehouseManagers.Any(a => a.Password == user.Password && a.Login == user.Login))
             {
