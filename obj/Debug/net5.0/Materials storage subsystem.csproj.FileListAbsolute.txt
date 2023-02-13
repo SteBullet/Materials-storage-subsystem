@@ -675,3 +675,13 @@ D:\курсач тп\obj\Debug\net5.0\refint\Materials storage subsystem.dll
 D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.pdb
 D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.genruntimeconfig.cache
 D:\курсач тп\obj\Debug\net5.0\ref\Materials storage subsystem.dll
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\MaterialCreatePage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\MaterialDetailsPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\MaterialEditPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\MaterialsCatalogPage.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MoveRequestCreate.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MoveRequestEdit.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\MoveRequestsList.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Manager\WarehouseRemainings.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs
+F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\WarehouseManager\WarehouseRemainings.cshtml.g.cs

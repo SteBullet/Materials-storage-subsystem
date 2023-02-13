@@ -1,4 +1,4 @@
-﻿@model ExpenseSheetCreateModel
+﻿@model ExpenseSheet
 
 @{
     ViewData["Title"] = "ExpenseSheetCreate";
@@ -14,13 +14,13 @@
         <form asp-action="ExpenseSheetCreate">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="ExpenseSheet.Date" class="control-label"></label>
-                <input asp-for="ExpenseSheet.Date" class="form-control" />
-                <span asp-validation-for="ExpenseSheet.Date" class="text-danger"></span>
+                <label asp-for="@Model.Date" class="control-label"></label>
+                <input asp-for="@Model.Date" class="form-control" />
+                <span asp-validation-for="@Model.Date" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="control-label">Warehouse</label>
-                <input type="hidden" asp-for="ExpenseSheet.WarehouseId" class="form-control" />
+                <input type="hidden" asp-for="@Model.WarehouseId" class="form-control" />
                 <label>@Model.WarehouseId</label>
             </div>
             <div class="form-group">

@@ -49,9 +49,7 @@ namespace Materials_storage_subsystem.Controllers
         {
             if (user.Discriminator == "Admin" || user.Discriminator == "Manager")
                 user.WarehouseId = null;
-            //_context.Users.First(u => u.Id == user.Id).Discriminator = user.Discriminator;
             _context.Users.Update(user);
-            //_context.Entry(user).State = EntityState.Modified;
             _context.SaveChanges();
             return Redirect("/Admin/UsersList");
         }
@@ -79,6 +77,59 @@ namespace Materials_storage_subsystem.Controllers
             _context.Users.Remove(user);
             _context.SaveChanges();
             return Redirect("/Admin/UsersList");
+        }
+
+        [HttpGet]
+        public IActionResult MaterialDetailsPage(int id)
+        {
+            var material = _context.Materials.First(m => m.Id == id);
+            return View(material);
+        }
+
+        [HttpGet]
+        public IActionResult MaterialCreatePage()
+        {
+            var model = new Material();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult MaterialCreatePage(Material material)
+        {
+            _context.Materials.Add(material);
+            _context.SaveChanges();
+            return View("MaterialsCatalogPage", _context.Materials.ToList());
+        }
+
+        [HttpGet]
+        public IActionResult MaterialsCatalogPage()
+        {
+            var materials = _context.Materials.ToList();
+            return View(materials);
+        }
+
+        [HttpGet]
+        public IActionResult MaterialDelete(int id)
+        {
+            var material = _context.Materials.First(m => m.Id == id);
+            _context.Materials.Remove(material);
+            _context.SaveChanges();
+            return View("MaterialsCatalogPage", _context.Materials.ToList());
+        }
+
+        [HttpGet]
+        public IActionResult MaterialEditPage(int id)
+        {
+            var material = _context.Materials.First(m => m.Id == id);
+            return View(material);
+        }
+
+        [HttpPost]
+        public IActionResult MaterialEditPage(Material material)
+        {
+            _context.Materials.Update(material);
+            _context.SaveChanges();
+            return View("MaterialsCatalogPage", _context.Materials.ToList());
         }
     }
 }
