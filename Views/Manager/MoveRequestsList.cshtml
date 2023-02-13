@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Materials_storage_subsystem.Models.MoveRequest>
+
+@{
+    ViewData["Title"] = "MoveRequestsList";
+    Layout = "_LayoutManager";
+}
+
+<h1>MoveRequestsList</h1>
+
+<p>
+    <a asp-action="MoveRequestCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                From Warehouse
+            </th>
+            <th>
+                To Warehouse
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FromWarehouseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ToWarehouseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Material.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                <a asp-action="MoveRequestEdit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="MoveRequestDelete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

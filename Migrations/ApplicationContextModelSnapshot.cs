@@ -110,6 +110,36 @@ namespace Materials_storage_subsystem.Migrations
                     b.ToTable("MaterialRemainings");
                 });
 
+            modelBuilder.Entity("Materials_storage_subsystem.Models.MoveRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("FromWarehouseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MaterialId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ToWarehouseId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FromWarehouseId");
+
+                    b.HasIndex("MaterialId");
+
+                    b.HasIndex("ToWarehouseId");
+
+                    b.ToTable("MoveRequests");
+                });
+
             modelBuilder.Entity("Materials_storage_subsystem.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -235,6 +265,33 @@ namespace Materials_storage_subsystem.Migrations
                     b.Navigation("Material");
 
                     b.Navigation("Warehouse");
+                });
+
+            modelBuilder.Entity("Materials_storage_subsystem.Models.MoveRequest", b =>
+                {
+                    b.HasOne("Materials_storage_subsystem.Models.Warehouse", "FromWarehouse")
+                        .WithMany()
+                        .HasForeignKey("FromWarehouseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Materials_storage_subsystem.Models.Material", "Material")
+                        .WithMany()
+                        .HasForeignKey("MaterialId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Materials_storage_subsystem.Models.Warehouse", "ToWarehouse")
+                        .WithMany()
+                        .HasForeignKey("ToWarehouseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("FromWarehouse");
+
+                    b.Navigation("Material");
+
+                    b.Navigation("ToWarehouse");
                 });
 
             modelBuilder.Entity("Materials_storage_subsystem.Models.User", b =>

@@ -22,6 +22,7 @@ namespace Materials_storage_subsystem.Data
         public DbSet<MaterialMovement> MaterialMovements { get; set; } = null!;
         public DbSet<MaterialRemaining> MaterialRemainings { get; set; } = null!;
         public DbSet<Material> Materials { get; set; } = null!;
+        public DbSet<MoveRequest> MoveRequests { get; set; } = null!;
 
         public ApplicationContext(DbContextOptions options) : base(options)
         {

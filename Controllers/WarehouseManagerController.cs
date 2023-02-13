@@ -163,5 +163,16 @@ namespace Materials_storage_subsystem.Controllers
             _context.SaveChanges();
             return View("WarehouseDetailsPage", warehouse);
         }
+
+        [HttpGet]
+        public IActionResult WarehouseRemainings(int id)
+        {
+            var remainings = _context.MaterialRemainings.Where(x => x.WarehouseId == id).ToList();
+            foreach (var item in remainings)
+            {
+                item.Material = _context.Materials.First(x => x.Id == item.MaterialId);
+            }
+            return View(remainings);
+        }
     }
 }

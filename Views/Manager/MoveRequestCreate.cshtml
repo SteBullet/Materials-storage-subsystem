@@ -1,0 +1,48 @@
+﻿@model Materials_storage_subsystem.Models.MoveRequest
+
+@{
+    ViewData["Title"] = "MoveRequestCreate";
+    Layout = "_LayoutManager";
+}
+
+<h1>MoveRequestCreate</h1>
+
+<h4>MoveRequest</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="MoveRequestCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>From Warehouse</label>
+                <select asp-for="FromWarehouseId" class ="form-control" asp-items="ViewBag.WarehousesId"></select>
+            </div>
+            <div class="form-group">
+                <label>To Warehouse</label>
+                <select asp-for="ToWarehouseId" class ="form-control" asp-items="ViewBag.WarehousesId"></select>
+            </div>
+            <div class="form-group">
+                <label>Material</label>
+                <select asp-for="MaterialId" class="form-control">
+                    @foreach (var id in ViewBag.Materials.Items)
+                    {
+                        <option value="@id.Id">@id.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="MoveRequestsList">Back to List</a>
+</div>
+

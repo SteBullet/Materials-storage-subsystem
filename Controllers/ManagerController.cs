@@ -1,6 +1,8 @@
 ﻿using Materials_storage_subsystem.Data;
 using Materials_storage_subsystem.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -124,6 +126,64 @@ namespace Materials_storage_subsystem.Controllers
             _context.Warehouses.Remove(warehouse);
             _context.SaveChanges();
             return View("WarehousesListPage", _context.Warehouses.ToList());
+        }
+
+        [HttpGet]
+        public IActionResult WarehouseRemainings(int id)
+        {
+            var remainings = _context.MaterialRemainings.Where(x => x.WarehouseId == id).ToList();
+            foreach (var item in remainings)
+            {
+                item.Material = _context.Materials.First(x => x.Id == item.MaterialId);
+            }
+            return View(remainings);
+        }
+
+        [HttpGet]
+        public IActionResult MoveRequestsList()
+        {
+            var moveRequests = _context.MoveRequests.Include(x => x.Material).ToList();
+            return View(moveRequests);
+        }
+
+        [HttpGet]
+        public IActionResult MoveRequestCreate()
+        {
+            ViewBag.WarehousesId = new SelectList(_context.Warehouses.Select(w => w.Id).ToList());
+            ViewBag.Materials = new SelectList(_context.Materials.ToList());
+            return View(new MoveRequest());
+        }
+
+        [HttpPost]
+        public IActionResult MoveRequestCreate(MoveRequest Model)
+        {
+            _context.MoveRequests.Add(Model);
+            _context.SaveChanges();
+            return View("MoveRequestsList", _context.MoveRequests.Include(x => x.Material).ToList());
+        }
+
+        [HttpGet]
+        public IActionResult MoveRequestDelete(int id)
+        {
+            _context.MoveRequests.Remove(_context.MoveRequests.First(m => m.Id == id));
+            _context.SaveChanges();
+            return View("MoveRequestsList", _context.MoveRequests.Include(x => x.Material).ToList());
+        }
+
+        [HttpGet]
+        public IActionResult MoveRequestEdit(int id)
+        {
+            ViewBag.WarehousesId = new SelectList(_context.Warehouses.Select(w => w.Id).ToList());
+            ViewBag.Materials = new SelectList(_context.Materials.ToList());
+            return View(new MoveRequest());
+        }
+
+        [HttpPost]
+        public IActionResult MoveRequestEdit(MoveRequest Model)
+        {
+            _context.MoveRequests.Update(Model);
+            _context.SaveChanges();
+            return View("MoveRequestsList", _context.MoveRequests.Include(x => x.Material).ToList());
         }
     }
 }

@@ -496,3 +496,182 @@ F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\UsersLi
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\CreateUser.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\UserDetails.cshtml.g.cs
 F:\C#\Materials storage subsystem git\obj\Debug\net5.0\Razor\Views\Admin\EditUser.cshtml.g.cs
+D:\курсач тп\bin\Debug\net5.0\appsettings.Development.json
+D:\курсач тп\bin\Debug\net5.0\appsettings.json
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.StaticWebAssets.xml
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.exe
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.deps.json
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.runtimeconfig.json
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.runtimeconfig.dev.json
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.dll
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.pdb
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.Views.dll
+D:\курсач тп\bin\Debug\net5.0\Materials storage subsystem.Views.pdb
+D:\курсач тп\bin\Debug\net5.0\Humanizer.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\курсач тп\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\курсач тп\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\курсач тп\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\курсач тп\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\курсач тп\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\курсач тп\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\курсач тп\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\курсач тп\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\курсач тп\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\курсач тп\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\курсач тп\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\курсач тп\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\курсач тп\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\курсач тп\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\курсач тп\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\курсач тп\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\курсач тп\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\курсач тп\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\курсач тп\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.csproj.AssemblyReference.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.AssemblyInfoInputs.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.AssemblyInfo.cs
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.csproj.CoreCompileInputs.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.MvcApplicationPartsAssemblyInfo.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.RazorAssemblyInfo.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.RazorAssemblyInfo.cs
+D:\курсач тп\obj\Debug\net5.0\scopedcss\bundle\Materials storage subsystem.styles.css
+D:\курсач тп\obj\Debug\net5.0\staticwebassets\Materials storage subsystem.StaticWebAssets.Manifest.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.TagHelpers.input.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.TagHelpers.output.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.RazorCoreGenerate.cache
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Admin\CreateUser.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Admin\EditUser.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Admin\UserDetails.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Admin\UsersList.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetCreate.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetEdit.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetEditError.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetList.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Checkman\ExpenseSheetPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Checkman\MaterialsCatalogPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MaterialCreatePage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MaterialDetailsPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MaterialEditPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MaterialsCatalogPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MoveRequestCreate.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MoveRequestEdit.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\MoveRequestsList.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\WarehouseCreate.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\WarehouseDetailsPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\WarehouseEditPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\WarehouseRemainings.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Manager\WarehousesListPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Shared\_LayoutCheckman.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Shared\_LayoutManager.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Shared\_LayoutWarehouseManager.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\ExpenseSheetCreate.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\ExpenseSheetEdit.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\ExpenseSheetEditError.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\ExpenseSheetList.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\ExpenseSheetPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\MaterialsCatalogPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\WarehouseDetailsPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\WarehouseEditPage.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\WarehouseManager\WarehouseRemainings.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.RazorTargetAssemblyInfo.cache
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.RazorTargetAssemblyInfo.cs
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.Views.pdb
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.csproj.CopyComplete
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.dll
+D:\курсач тп\obj\Debug\net5.0\refint\Materials storage subsystem.dll
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.pdb
+D:\курсач тп\obj\Debug\net5.0\Materials storage subsystem.genruntimeconfig.cache
+D:\курсач тп\obj\Debug\net5.0\ref\Materials storage subsystem.dll

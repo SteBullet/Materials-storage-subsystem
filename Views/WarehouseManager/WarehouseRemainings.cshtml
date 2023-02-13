@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Materials_storage_subsystem.Models.MaterialRemaining>
+
+@{
+    ViewData["Title"] = "WarehouseRemainings";
+    Layout = "_LayoutWarehouseManager";
+}
+
+<h1>WarehouseRemainings</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Material)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Material.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+            </tr>
+        }
+        <a asp-action="WarehouseDetailsPage">Back to Warehouse</a>
+    </tbody>
+</table>
